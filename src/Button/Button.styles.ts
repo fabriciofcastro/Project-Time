@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export type ButtoinVariant = 'promary' | 'secondary' | 'danger' | 'success'
+export type ButtoinVariant = 'primary' | 'secondary' | 'danger' | 'success'
 
 interface ButtonCOntainerProps {
   variant: ButtoinVariant
@@ -18,5 +18,5 @@ export const ButtonContainer = styled.button<ButtonCOntainerProps>`
   width: 100px;
   height: 40px;
 
-  background-color: ${({theme}) => theme.primary};
+  background-color: ${({theme}) => theme.primary };
 `
