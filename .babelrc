@@ -1,0 +1,10 @@
+{
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": ["babel-plugin-styled-components"]
+  },
+  "presets": ["env"],
+  "plugins": ["babel-plugin-styled-components"]
+}
